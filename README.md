@@ -1,6 +1,6 @@
 # Thai-Food-Classification
  
-Thai-Food-Classification is a web-based application that allows users to upload their Thai food images and it will predict what kind of food it is.
+Thai-Food-Classification is a web application that allows users to upload their Thai food images and it will predict what kind of food it is.
 
 ## Description
 
