@@ -14,6 +14,8 @@ PATH = 'model_pretrained_True.pth'
 IMAGE_SIZE = 224
 NUM_CLASSES = 16
 
+device = ('cuda' if torch.cuda.is_available() else 'cpu')
+
 model = ViT('B_32_imagenet1k',
     dim=128,
     image_size=224,
@@ -22,8 +24,8 @@ model = ViT('B_32_imagenet1k',
 
 optimizer = optim.SGD(model.parameters(), lr=0.0001, momentum=0.9)
 
-# load checkpoint
-checkpoint = torch.load(PATH)
+# load checkpoints
+checkpoint = torch.load(PATH, map_location=device)
 model.load_state_dict(checkpoint['model_state_dict'])
 # optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
 # epoch = checkpoint['epoch']
