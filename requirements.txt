@@ -1,0 +1,5 @@
+torch
+torchvision
+pytorch_pretrained_vit
+streamlit
+pillow
