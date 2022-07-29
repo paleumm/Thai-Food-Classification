@@ -8,7 +8,7 @@ This application is built on the `streamlit` library. I used pretrained PyTorch 
 
 ## Usage
 
-I provide my [checkpoint](model_pretrained_True.pth) that use for this application, feel free to use it. To run this application, follow these steps.
+I provide my [checkpoint](model_pretrained_True.pth) that I use for this application. Feel free to use it. To run this application, follow these steps.
 
 I use python `3.10.4`.
 
