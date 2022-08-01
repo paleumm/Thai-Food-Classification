@@ -23,3 +23,12 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+### Running on docker
+
+Build docker image
+```bash
+docker build -t thai-food .
+```
+```bash
+docker run -p 8501:8501 thai-food:latest
+```
