@@ -10,7 +10,7 @@ st.write("")
 
 image_up = st.file_uploader("Upload food image. (jpg webp) ", type=["jpeg","jpg","webp"])
 
-PATH = 'model_pretrained_True.pth'
+PATH = 'model_food.pth'
 IMAGE_SIZE = 224
 NUM_CLASSES = 16
 
